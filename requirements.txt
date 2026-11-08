@@ -1,0 +1,8 @@
+# Offline asset-generation tools only (NOT needed to run the wrapper: the evaluator needs Blender only).
+# Python 3.11-3.13
+numpy>=1.26
+scipy>=1.11
+opencv-python>=4.8
+trimesh>=4.0
+pillow>=10.0
+# Google GNM Head (Apache-2.0) - install from source:  git clone https://github.com/google/GNM && pip install -e GNM/gnm/shape

@@ -1,0 +1,7 @@
+.venv/
+third_party/
+preview/
+logs/
+__pycache__/
+*.blend1
+assets/*.npz
