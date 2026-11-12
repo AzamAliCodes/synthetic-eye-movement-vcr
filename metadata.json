@@ -1,0 +1,1542 @@
+[
+  {
+    "frame": 0,
+    "theta": 0.0,
+    "input": {
+      "h": 0.0,
+      "v": 1.0
+    },
+    "eye_rotation_L": [
+      -0.141269,
+      -0.006162,
+      -0.087036
+    ],
+    "eye_rotation_R": [
+      -0.141449,
+      0.006171,
+      0.087056
+    ],
+    "pupil_center_2D_L": [
+      730.334,
+      498.366
+    ],
+    "pupil_center_2D_R": [
+      293.617,
+      498.724
+    ],
+    "camera_matrix": [
+      [
+        2844.444444,
+        512.0,
+        0.0,
+        204.800003
+      ],
+      [
+        0.0,
+        512.0,
+        -2844.444444,
+        204.800003
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.4
+      ]
+    ],
+    "extra": {
+      "convention": "image (h>0 -> pupils toward image right; v>0 -> up)",
+      "eye_rotation_units": "radians, Euler XYZ, world frame, relative to primary (straight-ahead, -Y) gaze",
+      "eye_rotation_quat_L_wxyz": [
+        0.996548,
+        -0.070642,
+        -0.0,
+        -0.043613
+      ],
+      "eye_rotation_quat_R_wxyz": [
+        0.996541,
+        -0.070732,
+        0.0,
+        0.043623
+      ],
+      "gaze_dir_L": [
+        -0.086924,
+        -0.986215,
+        0.140797
+      ],
+      "gaze_dir_R": [
+        0.086944,
+        -0.986188,
+        0.140975
+      ],
+      "eye_center_L_world": [
+        0.030853,
+        4.5e-05,
+        2.6e-05
+      ],
+      "eye_center_R_world": [
+        -0.030853,
+        -4.5e-05,
+        -2.6e-05
+      ],
+      "fixation_target_world": [
+        0.0,
+        -0.35,
+        0.05
+      ],
+      "pupil_3D_L_world": [
+        0.029723,
+        -0.012776,
+        0.001856
+      ],
+      "pupil_3D_R_world": [
+        -0.029722,
+        -0.012866,
+        0.001807
+      ],
+      "K": [
+        [
+          2844.444444,
+          0.0,
+          512.0
+        ],
+        [
+          0.0,
+          2844.444444,
+          512.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "t": [
+        0.0,
+        0.0,
+        0.4
+      ],
+      "camera_position_world": [
+        0.0,
+        -0.4,
+        0.0
+      ],
+      "camera_to_eye_midpoint_m": 0.4,
+      "fixation_distance_from_midpoint_m": 0.353553,
+      "image_size": [
+        1024,
+        1024
+      ],
+      "eyelid_openness_L": 1.0,
+      "eyelid_openness_R": 1.0,
+      "texture_set": "set_01_warm_light",
+      "blender_version": "4.5.10 LTS",
+      "render_engine": "CYCLES",
+      "samples": 64,
+      "image": "renders/frame_00.png"
+    }
+  },
+  {
+    "frame": 1,
+    "theta": 0.628319,
+    "input": {
+      "h": 0.587785,
+      "v": 0.809017
+    },
+    "eye_rotation_L": [
+      -0.114975,
+      -0.000239,
+      -0.004153
+    ],
+    "eye_rotation_R": [
+      -0.113501,
+      0.009645,
+      0.169372
+    ],
+    "pupil_center_2D_L": [
+      738.293,
+      500.853
+    ],
+    "pupil_center_2D_R": [
+      301.462,
+      501.374
+    ],
+    "camera_matrix": [
+      [
+        2844.444444,
+        512.0,
+        0.0,
+        204.800003
+      ],
+      [
+        0.0,
+        512.0,
+        -2844.444444,
+        204.800003
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.4
+      ]
+    ],
+    "extra": {
+      "convention": "image (h>0 -> pupils toward image right; v>0 -> up)",
+      "eye_rotation_units": "radians, Euler XYZ, world frame, relative to primary (straight-ahead, -Y) gaze",
+      "eye_rotation_quat_L_wxyz": [
+        0.998346,
+        -0.057456,
+        -0.0,
+        -0.00208
+      ],
+      "eye_rotation_quat_R_wxyz": [
+        0.994778,
+        -0.056924,
+        0.0,
+        0.08472
+      ],
+      "gaze_dir_L": [
+        -0.004153,
+        -0.993389,
+        0.114722
+      ],
+      "gaze_dir_R": [
+        0.168555,
+        -0.979164,
+        0.113252
+      ],
+      "eye_center_L_world": [
+        0.030853,
+        4.5e-05,
+        2.6e-05
+      ],
+      "eye_center_R_world": [
+        -0.030853,
+        -4.5e-05,
+        -2.6e-05
+      ],
+      "fixation_target_world": [
+        0.029389,
+        -0.35,
+        0.040451
+      ],
+      "pupil_3D_L_world": [
+        0.030799,
+        -0.012869,
+        0.001517
+      ],
+      "pupil_3D_R_world": [
+        -0.028661,
+        -0.012774,
+        0.001447
+      ],
+      "K": [
+        [
+          2844.444444,
+          0.0,
+          512.0
+        ],
+        [
+          0.0,
+          2844.444444,
+          512.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "t": [
+        0.0,
+        0.0,
+        0.4
+      ],
+      "camera_position_world": [
+        0.0,
+        -0.4,
+        0.0
+      ],
+      "camera_to_eye_midpoint_m": 0.4,
+      "fixation_distance_from_midpoint_m": 0.353553,
+      "image_size": [
+        1024,
+        1024
+      ],
+      "eyelid_openness_L": 1.0,
+      "eyelid_openness_R": 1.0,
+      "texture_set": "set_01_warm_light",
+      "blender_version": "4.5.10 LTS",
+      "render_engine": "CYCLES",
+      "samples": 64,
+      "image": "renders/frame_01.png"
+    }
+  },
+  {
+    "frame": 2,
+    "theta": 1.256637,
+    "input": {
+      "h": 0.951057,
+      "v": 0.309017
+    },
+    "eye_rotation_L": [
+      -0.043988,
+      0.001048,
+      0.047626
+    ],
+    "eye_rotation_R": [
+      -0.043128,
+      0.004768,
+      0.220199
+    ],
+    "pupil_center_2D_L": [
+      743.272,
+      507.61
+    ],
+    "pupil_center_2D_R": [
+      306.253,
+      508.073
+    ],
+    "camera_matrix": [
+      [
+        2844.444444,
+        512.0,
+        0.0,
+        204.800003
+      ],
+      [
+        0.0,
+        512.0,
+        -2844.444444,
+        204.800003
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.4
+      ]
+    ],
+    "extra": {
+      "convention": "image (h>0 -> pupils toward image right; v>0 -> up)",
+      "eye_rotation_units": "radians, Euler XYZ, world frame, relative to primary (straight-ahead, -Y) gaze",
+      "eye_rotation_quat_L_wxyz": [
+        0.999474,
+        -0.021998,
+        0.0,
+        0.023817
+      ],
+      "eye_rotation_quat_R_wxyz": [
+        0.993706,
+        -0.021694,
+        0.0,
+        0.109903
+      ],
+      "gaze_dir_L": [
+        0.047608,
+        -0.997898,
+        0.043973
+      ],
+      "gaze_dir_R": [
+        0.218421,
+        -0.974902,
+        0.043115
+      ],
+      "eye_center_L_world": [
+        0.030853,
+        4.5e-05,
+        2.6e-05
+      ],
+      "eye_center_R_world": [
+        -0.030853,
+        -4.5e-05,
+        -2.6e-05
+      ],
+      "fixation_target_world": [
+        0.047553,
+        -0.35,
+        0.015451
+      ],
+      "pupil_3D_L_world": [
+        0.031472,
+        -0.012927,
+        0.000597
+      ],
+      "pupil_3D_R_world": [
+        -0.028013,
+        -0.012719,
+        0.000535
+      ],
+      "K": [
+        [
+          2844.444444,
+          0.0,
+          512.0
+        ],
+        [
+          0.0,
+          2844.444444,
+          512.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "t": [
+        0.0,
+        0.0,
+        0.4
+      ],
+      "camera_position_world": [
+        0.0,
+        -0.4,
+        0.0
+      ],
+      "camera_to_eye_midpoint_m": 0.4,
+      "fixation_distance_from_midpoint_m": 0.353553,
+      "image_size": [
+        1024,
+        1024
+      ],
+      "eyelid_openness_L": 1.0,
+      "eyelid_openness_R": 1.0,
+      "texture_set": "set_01_warm_light",
+      "blender_version": "4.5.10 LTS",
+      "render_engine": "CYCLES",
+      "samples": 64,
+      "image": "renders/frame_02.png"
+    }
+  },
+  {
+    "frame": 3,
+    "theta": 1.884956,
+    "input": {
+      "h": 0.951057,
+      "v": -0.309017
+    },
+    "eye_rotation_L": [
+      0.044134,
+      -0.001051,
+      0.047626
+    ],
+    "eye_rotation_R": [
+      0.042985,
+      -0.004753,
+      0.220201
+    ],
+    "pupil_center_2D_L": [
+      743.272,
+      516.026
+    ],
+    "pupil_center_2D_R": [
+      306.253,
+      516.292
+    ],
+    "camera_matrix": [
+      [
+        2844.444444,
+        512.0,
+        0.0,
+        204.800003
+      ],
+      [
+        0.0,
+        512.0,
+        -2844.444444,
+        204.800003
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.4
+      ]
+    ],
+    "extra": {
+      "convention": "image (h>0 -> pupils toward image right; v>0 -> up)",
+      "eye_rotation_units": "radians, Euler XYZ, world frame, relative to primary (straight-ahead, -Y) gaze",
+      "eye_rotation_quat_L_wxyz": [
+        0.999473,
+        0.022072,
+        0.0,
+        0.023817
+      ],
+      "eye_rotation_quat_R_wxyz": [
+        0.993707,
+        0.021622,
+        0.0,
+        0.109903
+      ],
+      "gaze_dir_L": [
+        0.047608,
+        -0.997891,
+        -0.04412
+      ],
+      "gaze_dir_R": [
+        0.218423,
+        -0.974908,
+        -0.042971
+      ],
+      "eye_center_L_world": [
+        0.030853,
+        4.5e-05,
+        2.6e-05
+      ],
+      "eye_center_R_world": [
+        -0.030853,
+        -4.5e-05,
+        -2.6e-05
+      ],
+      "fixation_target_world": [
+        0.047553,
+        -0.35,
+        -0.015451
+      ],
+      "pupil_3D_L_world": [
+        0.031472,
+        -0.012927,
+        -0.000548
+      ],
+      "pupil_3D_R_world": [
+        -0.028013,
+        -0.012719,
+        -0.000584
+      ],
+      "K": [
+        [
+          2844.444444,
+          0.0,
+          512.0
+        ],
+        [
+          0.0,
+          2844.444444,
+          512.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "t": [
+        0.0,
+        0.0,
+        0.4
+      ],
+      "camera_position_world": [
+        0.0,
+        -0.4,
+        0.0
+      ],
+      "camera_to_eye_midpoint_m": 0.4,
+      "fixation_distance_from_midpoint_m": 0.353553,
+      "image_size": [
+        1024,
+        1024
+      ],
+      "eyelid_openness_L": 1.0,
+      "eyelid_openness_R": 1.0,
+      "texture_set": "set_01_warm_light",
+      "blender_version": "4.5.10 LTS",
+      "render_engine": "CYCLES",
+      "samples": 64,
+      "image": "renders/frame_03.png"
+    }
+  },
+  {
+    "frame": 4,
+    "theta": 2.513274,
+    "input": {
+      "h": 0.587785,
+      "v": -0.809017
+    },
+    "eye_rotation_L": [
+      0.11512,
+      0.000239,
+      -0.004153
+    ],
+    "eye_rotation_R": [
+      0.113358,
+      -0.009633,
+      0.169375
+    ],
+    "pupil_center_2D_L": [
+      738.293,
+      522.783
+    ],
+    "pupil_center_2D_R": [
+      301.462,
+      522.991
+    ],
+    "camera_matrix": [
+      [
+        2844.444444,
+        512.0,
+        0.0,
+        204.800003
+      ],
+      [
+        0.0,
+        512.0,
+        -2844.444444,
+        204.800003
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.4
+      ]
+    ],
+    "extra": {
+      "convention": "image (h>0 -> pupils toward image right; v>0 -> up)",
+      "eye_rotation_units": "radians, Euler XYZ, world frame, relative to primary (straight-ahead, -Y) gaze",
+      "eye_rotation_quat_L_wxyz": [
+        0.998342,
+        0.057528,
+        0.0,
+        -0.00208
+      ],
+      "eye_rotation_quat_R_wxyz": [
+        0.994781,
+        0.056852,
+        0.0,
+        0.084721
+      ],
+      "gaze_dir_L": [
+        -0.004153,
+        -0.993372,
+        -0.114866
+      ],
+      "gaze_dir_R": [
+        0.168558,
+        -0.97918,
+        -0.11311
+      ],
+      "eye_center_L_world": [
+        0.030853,
+        4.5e-05,
+        2.6e-05
+      ],
+      "eye_center_R_world": [
+        -0.030853,
+        -4.5e-05,
+        -2.6e-05
+      ],
+      "fixation_target_world": [
+        0.029389,
+        -0.35,
+        -0.040451
+      ],
+      "pupil_3D_L_world": [
+        0.030799,
+        -0.012869,
+        -0.001468
+      ],
+      "pupil_3D_R_world": [
+        -0.028661,
+        -0.012775,
+        -0.001496
+      ],
+      "K": [
+        [
+          2844.444444,
+          0.0,
+          512.0
+        ],
+        [
+          0.0,
+          2844.444444,
+          512.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "t": [
+        0.0,
+        0.0,
+        0.4
+      ],
+      "camera_position_world": [
+        0.0,
+        -0.4,
+        0.0
+      ],
+      "camera_to_eye_midpoint_m": 0.4,
+      "fixation_distance_from_midpoint_m": 0.353553,
+      "image_size": [
+        1024,
+        1024
+      ],
+      "eyelid_openness_L": 1.0,
+      "eyelid_openness_R": 1.0,
+      "texture_set": "set_01_warm_light",
+      "blender_version": "4.5.10 LTS",
+      "render_engine": "CYCLES",
+      "samples": 64,
+      "image": "renders/frame_04.png"
+    }
+  },
+  {
+    "frame": 5,
+    "theta": 3.141593,
+    "input": {
+      "h": 0.0,
+      "v": -1.0
+    },
+    "eye_rotation_L": [
+      0.141413,
+      0.006168,
+      -0.087034
+    ],
+    "eye_rotation_R": [
+      0.141305,
+      -0.006165,
+      0.087057
+    ],
+    "pupil_center_2D_L": [
+      730.334,
+      525.27
+    ],
+    "pupil_center_2D_R": [
+      293.617,
+      525.641
+    ],
+    "camera_matrix": [
+      [
+        2844.444444,
+        512.0,
+        0.0,
+        204.800003
+      ],
+      [
+        0.0,
+        512.0,
+        -2844.444444,
+        204.800003
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.4
+      ]
+    ],
+    "extra": {
+      "convention": "image (h>0 -> pupils toward image right; v>0 -> up)",
+      "eye_rotation_units": "radians, Euler XYZ, world frame, relative to primary (straight-ahead, -Y) gaze",
+      "eye_rotation_quat_L_wxyz": [
+        0.996543,
+        0.070714,
+        0.0,
+        -0.043612
+      ],
+      "eye_rotation_quat_R_wxyz": [
+        0.996546,
+        0.07066,
+        0.0,
+        0.043624
+      ],
+      "gaze_dir_L": [
+        -0.086922,
+        -0.986195,
+        -0.140939
+      ],
+      "gaze_dir_R": [
+        0.086946,
+        -0.986208,
+        -0.140832
+      ],
+      "eye_center_L_world": [
+        0.030853,
+        4.5e-05,
+        2.6e-05
+      ],
+      "eye_center_R_world": [
+        -0.030853,
+        -4.5e-05,
+        -2.6e-05
+      ],
+      "fixation_target_world": [
+        0.0,
+        -0.35,
+        -0.05
+      ],
+      "pupil_3D_L_world": [
+        0.029723,
+        -0.012775,
+        -0.001806
+      ],
+      "pupil_3D_R_world": [
+        -0.029722,
+        -0.012866,
+        -0.001857
+      ],
+      "K": [
+        [
+          2844.444444,
+          0.0,
+          512.0
+        ],
+        [
+          0.0,
+          2844.444444,
+          512.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "t": [
+        0.0,
+        0.0,
+        0.4
+      ],
+      "camera_position_world": [
+        0.0,
+        -0.4,
+        0.0
+      ],
+      "camera_to_eye_midpoint_m": 0.4,
+      "fixation_distance_from_midpoint_m": 0.353553,
+      "image_size": [
+        1024,
+        1024
+      ],
+      "eyelid_openness_L": 1.0,
+      "eyelid_openness_R": 1.0,
+      "texture_set": "set_01_warm_light",
+      "blender_version": "4.5.10 LTS",
+      "render_engine": "CYCLES",
+      "samples": 64,
+      "image": "renders/frame_05.png"
+    }
+  },
+  {
+    "frame": 6,
+    "theta": 3.769911,
+    "input": {
+      "h": -0.587785,
+      "v": -0.809017
+    },
+    "eye_rotation_L": [
+      0.113473,
+      0.00964,
+      -0.169329
+    ],
+    "eye_rotation_R": [
+      0.115005,
+      -0.000239,
+      0.004154
+    ],
+    "pupil_center_2D_L": [
+      722.493,
+      522.621
+    ],
+    "pupil_center_2D_R": [
+      285.654,
+      523.153
+    ],
+    "camera_matrix": [
+      [
+        2844.444444,
+        512.0,
+        0.0,
+        204.800003
+      ],
+      [
+        0.0,
+        512.0,
+        -2844.444444,
+        204.800003
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.4
+      ]
+    ],
+    "extra": {
+      "convention": "image (h>0 -> pupils toward image right; v>0 -> up)",
+      "eye_rotation_units": "radians, Euler XYZ, world frame, relative to primary (straight-ahead, -Y) gaze",
+      "eye_rotation_quat_L_wxyz": [
+        0.99478,
+        0.056909,
+        0.0,
+        -0.084699
+      ],
+      "eye_rotation_quat_R_wxyz": [
+        0.998345,
+        0.057471,
+        0.0,
+        0.00208
+      ],
+      "gaze_dir_L": [
+        -0.168513,
+        -0.979175,
+        -0.113224
+      ],
+      "gaze_dir_R": [
+        0.004154,
+        -0.993386,
+        -0.114751
+      ],
+      "eye_center_L_world": [
+        0.030853,
+        4.5e-05,
+        2.6e-05
+      ],
+      "eye_center_R_world": [
+        -0.030853,
+        -4.5e-05,
+        -2.6e-05
+      ],
+      "fixation_target_world": [
+        -0.029389,
+        -0.35,
+        -0.040451
+      ],
+      "pupil_3D_L_world": [
+        0.028662,
+        -0.012684,
+        -0.001446
+      ],
+      "pupil_3D_R_world": [
+        -0.030799,
+        -0.012959,
+        -0.001518
+      ],
+      "K": [
+        [
+          2844.444444,
+          0.0,
+          512.0
+        ],
+        [
+          0.0,
+          2844.444444,
+          512.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "t": [
+        0.0,
+        0.0,
+        0.4
+      ],
+      "camera_position_world": [
+        0.0,
+        -0.4,
+        0.0
+      ],
+      "camera_to_eye_midpoint_m": 0.4,
+      "fixation_distance_from_midpoint_m": 0.353553,
+      "image_size": [
+        1024,
+        1024
+      ],
+      "eyelid_openness_L": 1.0,
+      "eyelid_openness_R": 1.0,
+      "texture_set": "set_01_warm_light",
+      "blender_version": "4.5.10 LTS",
+      "render_engine": "CYCLES",
+      "samples": 64,
+      "image": "renders/frame_06.png"
+    }
+  },
+  {
+    "frame": 7,
+    "theta": 4.39823,
+    "input": {
+      "h": -0.951057,
+      "v": -0.309017
+    },
+    "eye_rotation_L": [
+      0.043118,
+      0.004766,
+      -0.220144
+    ],
+    "eye_rotation_R": [
+      0.043999,
+      0.001048,
+      -0.047639
+    ],
+    "pupil_center_2D_L": [
+      717.704,
+      515.926
+    ],
+    "pupil_center_2D_R": [
+      280.673,
+      516.392
+    ],
+    "camera_matrix": [
+      [
+        2844.444444,
+        512.0,
+        0.0,
+        204.800003
+      ],
+      [
+        0.0,
+        512.0,
+        -2844.444444,
+        204.800003
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.4
+      ]
+    ],
+    "extra": {
+      "convention": "image (h>0 -> pupils toward image right; v>0 -> up)",
+      "eye_rotation_units": "radians, Euler XYZ, world frame, relative to primary (straight-ahead, -Y) gaze",
+      "eye_rotation_quat_L_wxyz": [
+        0.993709,
+        0.021688,
+        0.0,
+        -0.109875
+      ],
+      "eye_rotation_quat_R_wxyz": [
+        0.999474,
+        0.022004,
+        0.0,
+        -0.023823
+      ],
+      "gaze_dir_L": [
+        -0.218368,
+        -0.974914,
+        -0.043104
+      ],
+      "gaze_dir_R": [
+        -0.047621,
+        -0.997897,
+        -0.043985
+      ],
+      "eye_center_L_world": [
+        0.030853,
+        4.5e-05,
+        2.6e-05
+      ],
+      "eye_center_R_world": [
+        -0.030853,
+        -4.5e-05,
+        -2.6e-05
+      ],
+      "fixation_target_world": [
+        -0.047553,
+        -0.35,
+        -0.015451
+      ],
+      "pupil_3D_L_world": [
+        0.028014,
+        -0.012629,
+        -0.000535
+      ],
+      "pupil_3D_R_world": [
+        -0.031472,
+        -0.013018,
+        -0.000598
+      ],
+      "K": [
+        [
+          2844.444444,
+          0.0,
+          512.0
+        ],
+        [
+          0.0,
+          2844.444444,
+          512.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "t": [
+        0.0,
+        0.0,
+        0.4
+      ],
+      "camera_position_world": [
+        0.0,
+        -0.4,
+        0.0
+      ],
+      "camera_to_eye_midpoint_m": 0.4,
+      "fixation_distance_from_midpoint_m": 0.353553,
+      "image_size": [
+        1024,
+        1024
+      ],
+      "eyelid_openness_L": 1.0,
+      "eyelid_openness_R": 1.0,
+      "texture_set": "set_01_warm_light",
+      "blender_version": "4.5.10 LTS",
+      "render_engine": "CYCLES",
+      "samples": 64,
+      "image": "renders/frame_07.png"
+    }
+  },
+  {
+    "frame": 8,
+    "theta": 5.026548,
+    "input": {
+      "h": -0.951057,
+      "v": 0.309017
+    },
+    "eye_rotation_L": [
+      -0.042975,
+      -0.00475,
+      -0.220146
+    ],
+    "eye_rotation_R": [
+      -0.044146,
+      -0.001052,
+      -0.047638
+    ],
+    "pupil_center_2D_L": [
+      717.704,
+      507.71
+    ],
+    "pupil_center_2D_R": [
+      280.673,
+      507.972
+    ],
+    "camera_matrix": [
+      [
+        2844.444444,
+        512.0,
+        0.0,
+        204.800003
+      ],
+      [
+        0.0,
+        512.0,
+        -2844.444444,
+        204.800003
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.4
+      ]
+    ],
+    "extra": {
+      "convention": "image (h>0 -> pupils toward image right; v>0 -> up)",
+      "eye_rotation_units": "radians, Euler XYZ, world frame, relative to primary (straight-ahead, -Y) gaze",
+      "eye_rotation_quat_L_wxyz": [
+        0.99371,
+        -0.021616,
+        -0.0,
+        -0.109876
+      ],
+      "eye_rotation_quat_R_wxyz": [
+        0.999472,
+        -0.022077,
+        -0.0,
+        -0.023823
+      ],
+      "gaze_dir_L": [
+        -0.218369,
+        -0.97492,
+        0.042961
+      ],
+      "gaze_dir_R": [
+        -0.04762,
+        -0.99789,
+        0.044131
+      ],
+      "eye_center_L_world": [
+        0.030853,
+        4.5e-05,
+        2.6e-05
+      ],
+      "eye_center_R_world": [
+        -0.030853,
+        -4.5e-05,
+        -2.6e-05
+      ],
+      "fixation_target_world": [
+        -0.047553,
+        -0.35,
+        0.015451
+      ],
+      "pupil_3D_L_world": [
+        0.028014,
+        -0.012629,
+        0.000584
+      ],
+      "pupil_3D_R_world": [
+        -0.031472,
+        -0.013018,
+        0.000548
+      ],
+      "K": [
+        [
+          2844.444444,
+          0.0,
+          512.0
+        ],
+        [
+          0.0,
+          2844.444444,
+          512.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "t": [
+        0.0,
+        0.0,
+        0.4
+      ],
+      "camera_position_world": [
+        0.0,
+        -0.4,
+        0.0
+      ],
+      "camera_to_eye_midpoint_m": 0.4,
+      "fixation_distance_from_midpoint_m": 0.353553,
+      "image_size": [
+        1024,
+        1024
+      ],
+      "eyelid_openness_L": 1.0,
+      "eyelid_openness_R": 1.0,
+      "texture_set": "set_01_warm_light",
+      "blender_version": "4.5.10 LTS",
+      "render_engine": "CYCLES",
+      "samples": 64,
+      "image": "renders/frame_08.png"
+    }
+  },
+  {
+    "frame": 9,
+    "theta": 5.654867,
+    "input": {
+      "h": -0.587785,
+      "v": 0.809017
+    },
+    "eye_rotation_L": [
+      -0.11333,
+      -0.009628,
+      -0.169332
+    ],
+    "eye_rotation_R": [
+      -0.11515,
+      0.000239,
+      0.004154
+    ],
+    "pupil_center_2D_L": [
+      722.493,
+      501.015
+    ],
+    "pupil_center_2D_R": [
+      285.654,
+      501.212
+    ],
+    "camera_matrix": [
+      [
+        2844.444444,
+        512.0,
+        0.0,
+        204.800003
+      ],
+      [
+        0.0,
+        512.0,
+        -2844.444444,
+        204.800003
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.4
+      ]
+    ],
+    "extra": {
+      "convention": "image (h>0 -> pupils toward image right; v>0 -> up)",
+      "eye_rotation_units": "radians, Euler XYZ, world frame, relative to primary (straight-ahead, -Y) gaze",
+      "eye_rotation_quat_L_wxyz": [
+        0.994784,
+        -0.056838,
+        -0.0,
+        -0.0847
+      ],
+      "eye_rotation_quat_R_wxyz": [
+        0.998341,
+        -0.057543,
+        0.0,
+        0.00208
+      ],
+      "gaze_dir_L": [
+        -0.168516,
+        -0.979191,
+        0.113082
+      ],
+      "gaze_dir_R": [
+        0.004154,
+        -0.993369,
+        0.114895
+      ],
+      "eye_center_L_world": [
+        0.030853,
+        4.5e-05,
+        2.6e-05
+      ],
+      "eye_center_R_world": [
+        -0.030853,
+        -4.5e-05,
+        -2.6e-05
+      ],
+      "fixation_target_world": [
+        -0.029389,
+        -0.35,
+        0.040451
+      ],
+      "pupil_3D_L_world": [
+        0.028662,
+        -0.012684,
+        0.001496
+      ],
+      "pupil_3D_R_world": [
+        -0.030799,
+        -0.012959,
+        0.001468
+      ],
+      "K": [
+        [
+          2844.444444,
+          0.0,
+          512.0
+        ],
+        [
+          0.0,
+          2844.444444,
+          512.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "t": [
+        0.0,
+        0.0,
+        0.4
+      ],
+      "camera_position_world": [
+        0.0,
+        -0.4,
+        0.0
+      ],
+      "camera_to_eye_midpoint_m": 0.4,
+      "fixation_distance_from_midpoint_m": 0.353553,
+      "image_size": [
+        1024,
+        1024
+      ],
+      "eyelid_openness_L": 1.0,
+      "eyelid_openness_R": 1.0,
+      "texture_set": "set_01_warm_light",
+      "blender_version": "4.5.10 LTS",
+      "render_engine": "CYCLES",
+      "samples": 64,
+      "image": "renders/frame_09.png"
+    }
+  }
+]
