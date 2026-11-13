@@ -4,7 +4,51 @@ Samsung PRISM XR Hackathon 2026 · XR Perception Group
 
 A textured **Google GNM Head v3** in Blender, with true 3D spherical eyeball rotation about each eyeball's own centre, coordinated eyelids and eyebrows, a locked calibrated camera, and a Python wrapper that renders 1024×1024 frames with per-frame ground-truth JSON.
 
-![contact sheet](renders/contact_sheet.png)
+## Reviewer guide
+
+[![Demo video: click to watch](videos/demo_video_poster.jpg)](videos/demo_video.mp4)
+
+**▶ [Watch the 60-second demo](videos/demo_video.mp4)**: the wrapper, the 10 clockwise renders with ground truth, the 5/5 direction check, the three input videos and the texture sets.
+
+| Deliverable | Where to look |
+|---|---|
+| Demo video (60 s walkthrough) | [`videos/demo_video.mp4`](videos/demo_video.mp4) |
+| Complete `.blend` scene (textured mesh, eye bones, materials) | [`scene.blend`](scene.blend) |
+| Python wrapper (`move`, `reset`, `render`) | [`wrapper/eyes.py`](wrapper/eyes.py), [API](#3-wrapper-api-wrappereyespy) |
+| 10 clockwise renders at θk = 2πk/10 | [`renders/frame_00.png` … `frame_09.png`](renders) |
+| Per-frame ground-truth JSON | [`metadata.json`](metadata.json), [schema](#4-calibration-and-conventions-all-fixed-all-verified-at-runtime) |
+| Contact sheet | [`renders/contact_sheet.png`](renders/contact_sheet.png) |
+| Left / Right / Up / Down / Reset check | [`renders/directions/`](renders/directions), [`tools/qa_pupil_check.py`](tools/qa_pupil_check.py) |
+| 5–10 UV texture sets | [`textures/`](textures) (8 sets), [renders per set](renders/textures) |
+| Videos for Left, Right and Generate (≤ 15 s each) | [`left.mp4`](videos/left.mp4), [`right.mp4`](videos/right.mp4), [`generate.mp4`](videos/generate.mp4) |
+| Presentation | [`presentation/`](presentation) |
+| AI disclosure | [`AI_DISCLOSURE.md`](AI_DISCLOSURE.md) |
+
+**Run it in three steps:** install [Blender 4.5 LTS](https://www.blender.org/download/lts/4-5/), then `blender -b scene.blend -P wrapper/eyes.py -- clockwise`, then check `renders/` and `metadata.json`. Details in [Quick start](#2-quick-start-3-commands).
+
+## Contents
+
+1. [Requirements](#1-requirements)
+2. [Quick start](#2-quick-start-3-commands)
+3. [Wrapper API](#3-wrapper-api-wrappereyespy)
+4. [Calibration and conventions](#4-calibration-and-conventions-all-fixed-all-verified-at-runtime)
+5. [What is in the repo](#5-what-is-in-the-repo)
+6. [Run with Docker](#6-run-with-docker-cpu)
+7. [Rebuilding the assets from source](#7-rebuilding-the-assets-from-source-optional)
+8. [Verification](#8-verification-we-ran)
+9. [Credits, licences and limitations](#9-credits-licences-and-limitations)
+
+## Submission checklist
+
+| Item | Location |
+|---|---|
+| Source code | `wrapper/`, `tools/`, `tests/`, `run.py`, `Dockerfile` |
+| Presentation | [`presentation/SRMIST_MarkovX_Submission.pptx`](presentation/SRMIST_MarkovX_Submission.pptx) ([PDF](presentation/SRMIST_MarkovX_Submission.pdf)) |
+| Demo video | [`videos/demo_video.mp4`](videos/demo_video.mp4) (60 s) |
+| AI disclosure | [`AI_DISCLOSURE.md`](AI_DISCLOSURE.md) |
+| README | this file |
+| Scene, renders, ground truth | `scene.blend`, `renders/`, `metadata.json`, `videos/`, `textures/` |
+| APK / SDK | not applicable |
 
 ## 1. Requirements
 
@@ -71,10 +115,10 @@ scene.blend                  textured GNM head, eye bones (eye.L/eye.R), materia
 wrapper/eyes.py              API + CLI.   gaze.py camera.py motion.py tasks_extra.py config.py
 renders/                     10 clockwise frames, directions/, textures/ (one render per texture set), contact_sheet.png
 metadata.json                per-frame ground truth
-videos/                      left.mp4  right.mp4  generate.mp4   (+ .json traces)
+videos/                      left.mp4  right.mp4  generate.mp4   (+ .json traces), demo_video.mp4 (60 s walkthrough)
 textures/set_01..08_*/       GNM-UDIM texture sets: face.1001.png (skin), face.1002/1004.png (L/R eyeballs, different irises), roughness/normal
 tools/                       offline pipeline + QA (not needed to run the wrapper)
-run.py  Dockerfile  requirements.txt
+run.py  Dockerfile  requirements.txt  AI_DISCLOSURE.md
 ```
 
 **Open the scene in Blender:** press Space on the Timeline to play `EXPR_NaturalLook` (saccades, an upward eye roll, blinks, eyelids, eyebrows and pupil size). The Eye bones are `eye.L` and `eye.R` (Damped Track onto the `GazeTarget` empty). Eyelids follow vertical gaze through drivers that use simple expressions only, so they work with "Auto Run Python Scripts" off.
