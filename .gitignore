@@ -5,3 +5,10 @@ logs/
 __pycache__/
 *.blend1
 assets/*.npz
+
+# Office lock files
+~$*
+
+# Local-only material (slides, PRD, diagrams); not part of the Samsung GitHub submission
+docs/
+tools/make_ppt.py
