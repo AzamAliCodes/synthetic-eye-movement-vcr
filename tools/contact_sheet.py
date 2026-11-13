@@ -1,5 +1,5 @@
 """Contact sheet: 10 clockwise frames + 5 directions (+reset) with eye crops and pupil overlays.
-   python tools/contact_sheet.py [--root .] [--out docs/demo/contact_sheet.png]"""
+   python tools/contact_sheet.py [--root .] [--out renders/contact_sheet.png]"""
 import argparse
 import json
 import os
@@ -39,7 +39,7 @@ def main():
     while len(tiles) % 4:
         tiles.append(np.full_like(tiles[0], 20))
     sheet = np.vstack([np.hstack(tiles[i:i + 4]) for i in range(0, len(tiles), 4)])
-    out = a.out or os.path.join(R, "docs", "demo", "contact_sheet.png")
+    out = a.out or os.path.join(R, "renders", "contact_sheet.png")
     os.makedirs(os.path.dirname(out), exist_ok=True)
     cv2.imwrite(out, sheet)
     print("wrote", out, sheet.shape)

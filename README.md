@@ -4,7 +4,7 @@ Samsung PRISM XR Hackathon 2026 · XR Perception Group
 
 A textured **Google GNM Head v3** in Blender, with true 3D spherical eyeball rotation about each eyeball's own centre, coordinated eyelids and eyebrows, a locked calibrated camera, and a Python wrapper that renders 1024×1024 frames with per-frame ground-truth JSON.
 
-![contact sheet](docs/demo/contact_sheet.png)
+![contact sheet](renders/contact_sheet.png)
 
 ## 1. Requirements
 
@@ -69,7 +69,7 @@ The wrapper raises `camera moved: calibration violated` if the camera or render 
 ```
 scene.blend                  textured GNM head, eye bones (eye.L/eye.R), materials, camera, lights, Timeline action EXPR_NaturalLook
 wrapper/eyes.py              API + CLI.   gaze.py camera.py motion.py tasks_extra.py config.py
-renders/                     10 clockwise frames, directions/, textures/ (one render per texture set)
+renders/                     10 clockwise frames, directions/, textures/ (one render per texture set), contact_sheet.png
 metadata.json                per-frame ground truth
 videos/                      left.mp4  right.mp4  generate.mp4   (+ .json traces)
 textures/set_01..08_*/       GNM-UDIM texture sets: face.1001.png (skin), face.1002/1004.png (L/R eyeballs, different irises), roughness/normal
@@ -99,6 +99,7 @@ python tools/make_textures.py         # 8 texture sets
 blender -b --python tools/build_scene.py     # -> scene.blend
 python tools/qa_pupil_check.py --dir renders/directions    # independent OpenCV direction check
 python tools/validate_submission.py                         # bundle checks
+python tools/contact_sheet.py                               # -> renders/contact_sheet.png (README image)
 ```
 
 ## 8. Verification we ran
