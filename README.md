@@ -41,7 +41,7 @@ CLI tasks (`blender -b scene.blend -P wrapper/eyes.py -- <task> [flags]`):
 | `clockwise` | 10 renders at θk = 2πk/10 (h = sin θk, v = cos θk, starting at the top, clockwise in the image) + `metadata.json` |
 | `directions` | Center, Left, Right, Up, Down, Reset renders + `directions.json` |
 | `move H V --out f.png` | one custom render, record printed |
-| `video --input left\|right\|generate` | `videos/<input>.mp4` (10 s, 24 fps) + per-frame `.json` of gaze and eyelid openness |
+| `video --input left\|right\|generate` | `videos/<input>.mp4` (12 s by default, 24 fps) + per-frame `.json` of gaze and eyelid openness |
 | `textures` | one portrait render per texture set → `renders/textures/set_XX.png` |
 
 Flags: `--samples N`, `--fast` (24 spp), `--convention image|subject`, `--set set_03`, `--seed N`, `--duration S` (≤ 15), `--video-res PX`.
